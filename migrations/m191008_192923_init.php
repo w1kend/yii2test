@@ -9,7 +9,7 @@ class m191008_192923_init extends Migration
 {
     public function up()
     {
-        
+        //init db...
     }
 
     public function down()

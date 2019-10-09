@@ -75,6 +75,5 @@ class TaskController extends Controller
             }
         }
         return $this->render('edittask',['model' => $model]);
-        
     }
 }
