@@ -39,6 +39,7 @@ AppAsset::register($this);
     ?>
 
     <div class="container">
+    <?= $this->render('../flash');?>
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>

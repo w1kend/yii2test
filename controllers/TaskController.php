@@ -30,7 +30,6 @@ class TaskController extends Controller
                 \Yii::$app->response->format = Response::FORMAT_JSON;
                 return ActiveForm::validate($model);
             }
-
             if($model->validate()) {
                 $transaction = Task::getDb()->beginTransaction();
                 try {
@@ -51,17 +50,31 @@ class TaskController extends Controller
 
     }
 
-    public function actionEditTask($id)
+    public function actionEditTask($id = null)
     {   
         $request = \Yii::$app->request;
-        if ($request->isPost) {
+        $model = Task::find()->where(['id' => $id])->one();
+        if (!$model) {
+            return $this->redirect(['/task']);
+        }
 
+        if ($request->isPost && $model->load($request->post())) {
+            if ($model->validate()) {
+                $transaction = Task::getDb()->beginTransaction();
+                try {
+                    $model->edited = 1;
+                    $model->save();
+                    $transaction->commit();
+                } catch (\Exeption $e) {
+                    $transaction->rollBack();
+                    \Yii::$app->session->setFlash('warning',$e->getMessage());
+                    return $this->render('edittask',['model' => $model]);
+                }
+                \Yii::$app->session->setFlash('success',"Запись успешно изменена");
+                return $this->redirect(['/task']);
+            }
         }
-        $model = Task::find(['id' => $id])->one();
-        if ($model) {
-            return $this->render('edittask',['model' => $model]);
-        }
-        return $this->redirect(['/task']);
+        return $this->render('edittask',['model' => $model]);
         
     }
 }

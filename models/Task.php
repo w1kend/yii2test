@@ -50,12 +50,12 @@ class Task extends ActiveRecord
     public function validateName($attribute,$params)
     {
         $len = mb_strlen($this->$attribute);
-        if ($len <= 3) {
+        if ($len < 3) {
             $this->addError($attribute,'Длина имя должна быть больше 3 символов');
         }
     }
 
-    public static function pagination($orderBy,$type,int $pageSize = 3)
+    public static function pagination($orderBy,$type,int $pageSize = 3) :ActiveDataProvider
     {   
         $types = [
             'desc' => 3,
