@@ -19,6 +19,13 @@ class Task extends ActiveRecord
     const SCENARIO_EDIT = 'edit';
     const SCENARIO_ADD = 'add';
 
+    public function scenarios() 
+    {
+        return [
+            self::SCENARIO_EDIT => ['name', 'email', 'text', 'completed'],
+            self::SCENARIO_ADD => ['name', 'email', 'text'],
+        ];
+    }
 
     public function rules()
     {
@@ -36,8 +43,6 @@ class Task extends ActiveRecord
             ['email', 'email', 'message' => 'Некорректное значение'],
 
             ['text', 'string', 'max' => 300],
-            
-            ['completed','integer', 'max' => 1]
         ];
     }
 

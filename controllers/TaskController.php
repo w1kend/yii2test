@@ -24,8 +24,8 @@ class TaskController extends Controller
     {
         $request = \Yii::$app->request;
         $model = new Task();
+        $model->setScenario(Task::SCENARIO_ADD);
         if ($request->isPost && $model->load($request->post())) {
-            
             if ($request->isAjax) {
                 \Yii::$app->response->format = Response::FORMAT_JSON;
                 return ActiveForm::validate($model);
@@ -54,6 +54,7 @@ class TaskController extends Controller
     {   
         $request = \Yii::$app->request;
         $model = Task::find()->where(['id' => $id])->one();
+        $model->setScenario(Task::SCENARIO_EDIT);
         if (!$model) {
             return $this->redirect(['/task']);
         }
