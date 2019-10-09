@@ -3438,3 +3438,1161 @@ Previous exception:
 yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap.min.css.map". in /home/sergei/Projects/yiitest/vendor/yiisoft/yii2/base/Module.php:537
 Stack trace:
 #0 /home/sergei/Projects/yiitest/vendor/yiisoft/yii2/web/Application.php(103)" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /css/bootstrap.min.css.map HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local"
+2019/10/09 11:25:17 [error] 17896#17896: *1564 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /task?orderBy=email&type=asc HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=name&type=asc"
+2019/10/09 11:25:38 [error] 17896#17896: *1564 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: yiitest.local, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local"
+2019/10/09 11:27:32 [error] 1612#1612: *1569 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local"
+2019/10/09 11:27:35 [error] 1612#1612: *1569 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "test". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Modu" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /test HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local"
+2019/10/09 11:28:14 [error] 1612#1612: *1573 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 11:28:14 [error] 1612#1612: *1573 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 11:49:11 [error] 1612#1612: *1596 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 11:49:12 [error] 1612#1612: *1596 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 11:49:23 [error] 1612#1612: *1596 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 11:49:23 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 11:49:30 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=2&per-page=3"
+2019/10/09 11:49:34 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?page=2&per-page=3&orderBy=email&type=asc"
+2019/10/09 11:49:35 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?page=2&per-page=3&orderBy=text&type=asc"
+2019/10/09 11:49:38 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=1&per-page=3&orderBy=text&type=asc"
+2019/10/09 11:49:42 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?page=1&per-page=3&orderBy=name&type=asc"
+2019/10/09 11:49:44 [error] 1612#1612: *1596 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?page=1&per-page=3&orderBy=email&type=asc"
+2019/10/09 11:49:47 [error] 1612#1612: *1596 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?page=1&per-page=3&orderBy=text&type=asc"
+2019/10/09 11:49:50 [error] 1612#1612: *1596 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?page=1&per-page=3&orderBy=text&type=desc"
+2019/10/09 11:49:50 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?page=1&per-page=3&orderBy=text&type=desc"
+2019/10/09 11:49:58 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=2&per-page=3&orderBy=text&type=desc"
+2019/10/09 11:50:03 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?page=2&per-page=3&orderBy=email&type=asc"
+2019/10/09 11:50:05 [error] 1612#1612: *1596 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/edit-task/?id=3"
+2019/10/09 11:50:10 [error] 1612#1612: *1596 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?page=2&per-page=3&orderBy=email&type=asc"
+2019/10/09 11:50:13 [error] 1612#1612: *1596 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=1&per-page=3&orderBy=email&type=asc"
+2019/10/09 11:50:45 [error] 1612#1612: *1596 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=2&per-page=3&orderBy=email&type=asc"
+2019/10/09 11:50:45 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=2&per-page=3&orderBy=email&type=asc"
+2019/10/09 11:50:51 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=1&per-page=3&orderBy=email&type=asc"
+2019/10/09 11:50:55 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/edit-task/?id=1"
+2019/10/09 11:50:58 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\BadRequestHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\BadRequestHttpException))
+#4 {main}
+Previous exception:
+yii\web\BadRequestHttpException: Missing required parameters: id in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Controller.php:149
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\web\Co" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "POST /task/edit-task HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/edit-task/?id=1"
+2019/10/09 11:51:01 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 11:51:02 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 11:51:02 [error] 1612#1612: *1589 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 11:52:28 [error] 1612#1612: *1663 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 11:52:28 [error] 1612#1612: *1665 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 11:52:31 [error] 1612#1612: *1665 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 11:52:37 [error] 1612#1612: *1665 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=2&per-page=3"
+2019/10/09 11:52:40 [error] 1612#1612: *1665 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/edit-task/?id=3"
+2019/10/09 11:52:44 [error] 1612#1612: *1665 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=2&per-page=3"
+2019/10/09 11:52:59 [error] 1612#1612: *1665 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/edit-task/?id=5"
+2019/10/09 11:52:59 [error] 1612#1612: *1663 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/edit-task/?id=5"
+2019/10/09 11:53:05 [error] 1612#1612: *1663 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=2&per-page=3"
+2019/10/09 11:53:16 [error] 1612#1612: *1663 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=2&per-page=3"
+2019/10/09 11:53:16 [error] 1612#1612: *1665 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=2&per-page=3"
+2019/10/09 11:53:18 [error] 1612#1612: *1665 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/edit-task?id=3"
+2019/10/09 11:53:25 [error] 1612#1612: *1665 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=2&per-page=3"
+2019/10/09 11:53:29 [error] 1612#1612: *1665 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/edit-task?id=5"
+2019/10/09 11:54:03 [error] 1612#1612: *1665 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=2&per-page=3"
+2019/10/09 11:54:03 [error] 1612#1612: *1663 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=2&per-page=3"
+2019/10/09 11:54:05 [error] 1612#1612: *1663 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?page=2&per-page=3&orderBy=email&type=asc"
+2019/10/09 11:54:07 [error] 1612#1612: *1663 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?page=2&per-page=3&orderBy=name&type=asc"
+2019/10/09 11:54:08 [error] 1612#1612: *1663 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?page=2&per-page=3&orderBy=text&type=asc"
+2019/10/09 11:54:11 [error] 1612#1612: *1663 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?page=1&per-page=3&orderBy=text&type=asc"
+2019/10/09 12:02:39 [error] 1612#1612: *1735 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 12:02:39 [error] 1612#1612: *1735 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 12:02:45 [error] 1612#1612: *1735 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc"
+2019/10/09 12:10:15 [error] 1612#1612: *1751 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/sergei/Projects/yii2test/models/Task.php on line 62. in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Response" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /task?orderBy=text&type=asc HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 12:10:15 [error] 1612#1612: *1751 FastCGI sent in stderr: "php(339): yii\web\Response->sendHeaders()
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\db\Exception))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#4 {main}
+Previous exception:
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'order clause' in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatem" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /task?orderBy=text&type=asc HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 12:10:45 [error] 1612#1612: *1751 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/sergei/Projects/yii2test/models/Task.php on line 62. in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Response" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /task?orderBy=text&type=asc HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 12:10:45 [error] 1612#1612: *1751 FastCGI sent in stderr: "php(339): yii\web\Response->sendHeaders()
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\db\Exception))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#4 {main}
+Previous exception:
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'order clause' in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatem" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /task?orderBy=text&type=asc HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 12:10:55 [error] 1612#1612: *1751 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/sergei/Projects/yii2test/models/Task.php on line 62. in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Response" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /task?orderBy=text&type=asc HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 12:10:55 [error] 1612#1612: *1751 FastCGI sent in stderr: "php(339): yii\web\Response->sendHeaders()
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\db\Exception))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#4 {main}
+Previous exception:
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'order clause' in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatem" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /task?orderBy=text&type=asc HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 12:12:38 [error] 1612#1612: *1764 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/sergei/Projects/yii2test/models/Task.php on line 66. in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Response.php(339)" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /task?orderBy=text&type=asc HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 12:12:38 [error] 1612#1612: *1764 FastCGI sent in stderr: ": yii\web\Response->sendHeaders()
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\db\Exception))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\db\Exception))
+#4 {main}
+Previous exception:
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'order clause' in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/db/Command.php:1290
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/db/Command.php(1290): PDOStatem" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /task?orderBy=text&type=asc HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 12:19:37 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/sergei/Projects/yii2test/models/Task.php on line 72. in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/sergei/Projects/yii2test/models/Task.php on line 72. in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/sergei/P" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /task?orderBy=text&type=asc HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task"
+2019/10/09 12:20:24 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc"
+2019/10/09 12:20:24 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc"
+2019/10/09 12:20:30 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=email&type=asc"
+2019/10/09 12:20:35 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=name&type=asc"
+2019/10/09 12:20:39 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc"
+2019/10/09 12:20:42 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=desc"
+2019/10/09 12:20:44 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc"
+2019/10/09 12:21:35 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc"
+2019/10/09 12:21:35 [error] 1612#1612: *1796 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc"
+2019/10/09 12:21:37 [error] 1612#1612: *1796 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=name&type=asc"
+2019/10/09 12:21:39 [error] 1612#1612: *1796 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=email&type=asc"
+2019/10/09 12:21:40 [error] 1612#1612: *1796 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc"
+2019/10/09 12:22:47 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc"
+2019/10/09 12:22:47 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc"
+2019/10/09 12:22:50 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=email&type=asc"
+2019/10/09 12:22:52 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=name&type=asc"
+2019/10/09 12:22:53 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc"
+2019/10/09 12:22:59 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=desc"
+2019/10/09 12:23:26 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=desc"
+2019/10/09 12:23:27 [error] 1612#1612: *1830 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=desc"
+2019/10/09 12:23:40 [error] 1612#1612: *1830 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=desc"
+2019/10/09 12:23:40 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=desc"
+2019/10/09 12:23:41 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc"
+2019/10/09 12:23:43 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?orderBy=text&type=asc&page=2&per-page=3"
+2019/10/09 12:23:45 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=desc&page=2&per-page=3"
+2019/10/09 12:23:47 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?orderBy=text&type=desc&page=1&per-page=3"
+2019/10/09 12:23:49 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=email&type=asc&page=1&per-page=3"
+2019/10/09 12:23:52 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=name&type=asc&page=1&per-page=3"
+2019/10/09 12:23:54 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?orderBy=name&type=asc&page=2&per-page=3"
+2019/10/09 12:23:56 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?orderBy=name&type=asc&page=1&per-page=3"
+2019/10/09 12:23:57 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=name&type=desc&page=1&per-page=3"
+2019/10/09 12:24:18 [error] 1612#1612: *1770 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc&page=1&per-page=3"
+2019/10/09 12:24:18 [error] 1612#1612: *1830 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task?orderBy=text&type=asc&page=1&per-page=3"
+2019/10/09 12:24:20 [error] 1612#1612: *1830 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?orderBy=text&type=asc&page=2&per-page=3"
+2019/10/09 12:24:22 [error] 1612#1612: *1830 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/edit-task?id=6"
+2019/10/09 12:24:24 [error] 1612#1612: *1830 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?orderBy=text&type=asc&page=2&per-page=3"
+2019/10/09 12:25:35 [error] 1612#1612: *1879 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?orderBy=text&type=asc&page=2&per-page=3"
+2019/10/09 12:25:36 [error] 1612#1612: *1880 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\base\InvalidRouteException: Unable to resolve the request: task/error in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#1 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/ErrorHandler.php(108): yii\base\Module->runAction('task/error')
+#2 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/bootstrap.bundle.js". in /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/sergei/Projects/yii2test/vendor/yiisoft/yii2/web/Application.php(1" while reading upstream, client: 127.0.0.1, server: yiitest.local, request: "GET /js/bootstrap.bundle.js HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "yiitest.local", referrer: "http://yiitest.local/task/index?orderBy=text&type=asc&page=2&per-page=3"

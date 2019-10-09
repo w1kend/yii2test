@@ -4,6 +4,7 @@ namespace app\models;
 
 use yii\db\ActiveRecord;
 use yii\data\ActiveDataProvider;
+use yii\data\Sort;
 /**
  * 
  * @property integer $id
@@ -54,8 +55,24 @@ class Task extends ActiveRecord
         }
     }
 
-    public function pagination($orderBy,$type)
-    {
-
-    }
+    public static function pagination($orderBy,$type,int $pageSize = 3)
+    {   
+        $types = [
+            'desc' => 3,
+            'asc' => 4,
+        ];
+        $query = static::find();
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query,
+            'Pagination' => [
+                'pageSize' => $pageSize,
+            ],
+            'sort' => [
+                'defaultOrder' => [
+                    $orderBy => $types[$type]
+                ]
+            ]
+        ]);
+        return $dataProvider;
+    }   
 }

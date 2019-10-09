@@ -12,19 +12,11 @@ class TaskController extends Controller
 {
     public function actionIndex($orderBy = 'name', $type = 'asc')
     {
-        $query = Task::find();
-        $pagination = new Pagination([
-            'defaultPageSize' => 3,
-            'totalCount' => $query->count(),
-        ]);
-        $tasks = $query->orderBy($orderBy)
-        ->offset($pagination->offset)
-        ->limit($pagination->limit)
-        ->all();
+        $provider = Task::pagination($orderBy,$type);
 
         return $this->render('index', [
             'tasks' => $tasks,
-            'pagination' => $pagination,
+            'provider' => $provider,
         ]);
     }
 
@@ -45,6 +37,7 @@ class TaskController extends Controller
                     $model->save();
                     $transaction->commit();
                 } catch (\Exeption $e) {
+                    $transaction->rollBack();
                     \Yii::$app->session->setFlash('warning',$e->getMessage());
                     return $this->render('addtask',['model' => $model]);
                 }
