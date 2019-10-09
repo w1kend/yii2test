@@ -2,17 +2,16 @@
 
 namespace app\controllers;
 
-use yii\web\{Controller,Response};
-use yii\data\Pagination;
+use yii\web\Controller;
+use yii\web\Response;
 use yii\widgets\ActiveForm;
 use app\models\Task;
-use app\forms\TaskForm;
 
 class TaskController extends Controller
 {
     public function actionIndex($orderBy = 'name', $type = 'asc')
     {
-        $provider = Task::pagination($orderBy,$type);
+        $provider = Task::pagination($orderBy, $type);
 
         return $this->render('index', [
             'tasks' => $tasks,
@@ -30,28 +29,26 @@ class TaskController extends Controller
                 \Yii::$app->response->format = Response::FORMAT_JSON;
                 return ActiveForm::validate($model);
             }
-            if($model->validate()) {
+            if ($model->validate()) {
                 $transaction = Task::getDb()->beginTransaction();
                 try {
                     $model->save();
                     $transaction->commit();
                 } catch (\Exeption $e) {
                     $transaction->rollBack();
-                    \Yii::$app->session->setFlash('warning',$e->getMessage());
-                    return $this->render('addtask',['model' => $model]);
+                    \Yii::$app->session->setFlash('warning', $e->getMessage());
+                    return $this->render('addtask', ['model' => $model]);
                 }
-                \Yii::$app->session->setFlash('success',"Запись успешно добавлена");
+                \Yii::$app->session->setFlash('success', "Запись успешно добавлена");
                 return $this->redirect(['/task']);
-
             }
         }
 
-        return $this->render('addtask',['model' => $model]);
-
+        return $this->render('addtask', ['model' => $model]);
     }
 
     public function actionEditTask($id = null)
-    {   
+    {
         $request = \Yii::$app->request;
         $model = Task::find()->where(['id' => $id])->one();
         $model->setScenario(Task::SCENARIO_EDIT);
@@ -68,13 +65,13 @@ class TaskController extends Controller
                     $transaction->commit();
                 } catch (\Exeption $e) {
                     $transaction->rollBack();
-                    \Yii::$app->session->setFlash('warning',$e->getMessage());
-                    return $this->render('edittask',['model' => $model]);
+                    \Yii::$app->session->setFlash('warning', $e->getMessage());
+                    return $this->render('edittask', ['model' => $model]);
                 }
-                \Yii::$app->session->setFlash('success',"Запись успешно изменена");
+                \Yii::$app->session->setFlash('success', "Запись успешно изменена");
                 return $this->redirect(['/task']);
             }
         }
-        return $this->render('edittask',['model' => $model]);
+        return $this->render('edittask', ['model' => $model]);
     }
 }

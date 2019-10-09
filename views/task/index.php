@@ -3,7 +3,7 @@ use yii\helpers\Html;
 use yii\widgets\LinkPager;
 use yii\helpers\Url;
 use yii\widgets\ListView;
-echo Url::to();
+
 ?>
 <h1>Tasks</h1> 
 <div class="row sort-links">
@@ -12,7 +12,7 @@ echo Url::to();
 <a href="" id="sort_email" class="sort-link btn btn-primary btn-sm">email</a>
 <a href="" id="sort_text" class="sort-link btn btn-primary btn-sm">text</a>
 </div>
-<?php 
+<?php
     echo ListView::widget([
         'dataProvider' => $provider,
         'itemView' => '_task',

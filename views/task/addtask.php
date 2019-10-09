@@ -11,10 +11,9 @@ $form = ActiveForm::begin([
     'action' => '/task/add-task',
 ]);
 
-echo $form->field($model,'name',['enableAjaxValidation' => true])->textInput();
-echo $form->field($model,'email')->textInput();
-echo $form->field($model,'text')->textInput();
-echo Html::submitButton("Добавить задачу",['class' => 'btn btn-primary']);
+echo $form->field($model, 'name', ['enableAjaxValidation' => true])->textInput();
+echo $form->field($model, 'email')->textInput();
+echo $form->field($model, 'text')->textInput();
+echo Html::submitButton("Добавить задачу", ['class' => 'btn btn-primary']);
 
-ActiveForm::end();  
-?>
+ActiveForm::end();

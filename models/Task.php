@@ -5,8 +5,9 @@ namespace app\models;
 use yii\db\ActiveRecord;
 use yii\data\ActiveDataProvider;
 use yii\data\Sort;
+
 /**
- * 
+ *
  * @property integer $id
  * @property string $name
  * @property string $email
@@ -19,7 +20,7 @@ class Task extends ActiveRecord
     const SCENARIO_EDIT = 'edit';
     const SCENARIO_ADD = 'add';
 
-    public function scenarios() 
+    public function scenarios()
     {
         return [
             self::SCENARIO_EDIT => ['name', 'email', 'text', 'completed'],
@@ -30,8 +31,8 @@ class Task extends ActiveRecord
     public function rules()
     {
         return [
-            [   
-                ['name', 'email', 'text'], 
+            [
+                ['name', 'email', 'text'],
                 'required',
                 'message' => 'Обязательно для заполнения',
             ],
@@ -57,16 +58,16 @@ class Task extends ActiveRecord
         ];
     }
 
-    public function validateName($attribute,$params)
+    public function validateName($attribute, $params)
     {
         $len = mb_strlen($this->$attribute);
         if ($len < 3) {
-            $this->addError($attribute,'Длина имя должна быть больше 3 символов');
+            $this->addError($attribute, 'Длина имя должна быть больше 3 символов');
         }
     }
 
-    public static function pagination($orderBy,$type,int $pageSize = 3) :ActiveDataProvider
-    {   
+    public static function pagination($orderBy, $type, int $pageSize = 3) :ActiveDataProvider
+    {
         $types = [
             'desc' => 3,
             'asc' => 4,
@@ -84,5 +85,5 @@ class Task extends ActiveRecord
             ]
         ]);
         return $dataProvider;
-    }   
+    }
 }
