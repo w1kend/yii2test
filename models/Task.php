@@ -29,10 +29,18 @@ class Task extends ActiveRecord
                 'message' => 'Обязательно для заполнения',
                 'on' => self::SCENARIO_ADD,
             ],
+            [
+                ['name','email','text','completed'],
+                'required',
+                'message' => 'Обязательно для заполнения',
+                'on' => self::SCENARIO_EDIT,
+            ],
+
             [['name','email'],'trim'],
             ['name', 'validateName'],
             ['email', 'email', 'message' => 'Некорректное значение'],
             ['text', 'string', 'max' => 300],
+            ['completed','integer', 'max' => 1]
         ];
     }
 
